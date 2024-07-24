@@ -1,26 +1,177 @@
-<!-- To Do
- 
-1. Design my website around a flex-box system
- 
-
-
--->
-
-
 <!DOCTYPE html>
-<html>
-    <head> 
-        <title>Home Page</title>
-        <link rel="icon" type="image/x-icon" href="images\favicon\favicon.ico">
-        <link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MythosMakers: Collaborative Fiction Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">MythosMakers</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#explore-stories">Explore Stories</a></li>
+                    <li><a href="#create">Create</a></li>
+                    <li><a href="#community">Community</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="login-btn">Log In</button>
+                <button class="signup-btn">Sign Up</button>
+            </div>
+        </div>
+    </header>
 
-    </head> 
-        <body>
-            <img src="images\logoStandIn.jpg" alt="logo">
-            <h1">Mythos Makers</h1>
-            <p>Crafting Legends Together.</p>
-            <div id="flexfooter">Footer</div>
-        </body>
-        
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Crafting Legends Together</h1>
+            <button class="cta-btn">Join Now</button>
+        </div>
+    </section>
 
+    <section class="features">
+        <div class="container">
+            <div class="feature">
+                <img src="interactive-storytelling.png" alt="Interactive Storytelling">
+                <h2>Interactive Storytelling</h2>
+                <p>Collaborate in real-time to create branching narratives.</p>
+            </div>
+            <div class="feature">
+                <img src="community-engagement.png" alt="Community Engagement">
+                <h2>Community Engagement</h2>
+                <p>Connect and collaborate with a vibrant community of storytellers.</p>
+            </div>
+            <div class="feature">
+                <img src="personalized-experience.png" alt="Personalized Experience">
+                <h2>Personalized Experience</h2>
+                <p>Get tailored recommendations and interactive tools.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <img src="step1.png" alt="Join">
+                    <h3>Join</h3>
+                    <p>Create your account and join the community.</p>
+                </div>
+                <div class="step">
+                    <img src="step2.png" alt="Collaborate">
+                    <h3>Collaborate</h3>
+                    <p>Work with others to create and edit stories.</p>
+                </div>
+                <div class="step">
+                    <img src="step3.png" alt="Publish">
+                    <h3>Publish</h3>
+                    <p>Share your stories with the world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-stories" id="explore-stories">
+        <div class="container">
+            <h2>Featured Stories</h2>
+            <div class="stories-grid">
+                <div class="story">
+                    <img src="story1.png" alt="Story 1">
+                    <h3>Story Title 1</h3>
+                    <p>Brief description of the story.</p>
+                </div>
+                <div class="story">
+                    <img src="story2.png" alt="Story 2">
+                    <h3>Story Title 2</h3>
+                    <p>Brief description of the story.</p>
+                </div>
+                <!-- More stories can be added here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="community">
+        <div class="container">
+            <h2>User Testimonials</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <img src="user1.png" alt="User 1">
+                    <p>"MythosMakers is an amazing platform for collaborative writing!"</p>
+                    <h4>- User 1</h4>
+                </div>
+                <div class="testimonial">
+                    <img src="user2.png" alt="User 2">
+                    <p>"I've met so many talented writers here."</p>
+                    <h4>- User 2</h4>
+                </div>
+                <!-- More testimonials can be added here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="community-highlights">
+        <div class="container">
+            <h2>Community Highlights</h2>
+            <div class="highlights">
+                <div class="highlight">
+                    <h3>Forum Activities</h3>
+                    <p>Check out the latest discussions and posts from the community.</p>
+                </div>
+                <div class="highlight">
+                    <h3>Events and Workshops</h3>
+                    <p>Join upcoming events, writing prompts, and workshops.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2>Recent Blog Posts</h2>
+            <div class="blog-posts">
+                <div class="blog-post">
+                    <img src="blog1.png" alt="Blog Post 1">
+                    <h3>Blog Post Title 1</h3>
+                    <p>Snippet of the blog post content.</p>
+                </div>
+                <div class="blog-post">
+                    <img src="blog2.png" alt="Blog Post 2">
+                    <h3>Blog Post Title 2</h3>
+                    <p>Snippet of the blog post content.</p>
+                </div>
+                <!-- More blog posts can be added here -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="quick-links">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+            <div class="newsletter">
+                <input type="email" placeholder="Subscribe to our newsletter">
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
